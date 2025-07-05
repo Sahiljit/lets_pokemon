@@ -1,19 +1,17 @@
-
 # Lets Pokemon
 
-This is simple CRUD application made using React and Firebase. The main objective behind building this was to update myself to Firebase 9. Refer to [Notes of firebase 9](https://github.com/sahiljit/learning_firebase/blob/main/README2.md) which I made while building this app. 
+This is simple CRUD application made using React and Firebase. The main objective behind building this was to update myself to Firebase 9. Refer to [Notes of firebase 9](https://github.com/sahiljit/learning_firebase/blob/main/README2.md) which I made while building this app.
 
 User can login to this Web App and can see their personalized list of pokemons. They can create a pokemon, increase its power and can delete a pokemon.
+
 ## Technologies Used
 
 ##### Following are the technologies used to build this app :-
-    
+
     1. React.js
     2. React-router v6
     3. Context API
     4. Firebase 9
-
-
 
 ## Features
 
@@ -21,14 +19,10 @@ User can login to this Web App and can see their personalized list of pokemons. 
 - Authentication/Authorization using Firebase 9
 - Global state management using Context API
 
-
-
 ## Screenshots
 
 ![App Screenshot](/screenshots/screenshot-2.png)
 ![App Screenshot](/screenshots/screenshot-1.png)
-
-
 
 ## Run Locally
 
@@ -52,14 +46,14 @@ Install dependencies
 
 Inside firebase folder, create config.js and add your firebase config object :-
 
-```javascript 
+```javascript
 export const firebaseConfig = {
   apiKey: "",
   authDomain: "",
   projectId: "",
   storageBucket: "",
   messagingSenderId: "",
-  appId: ""
+  appId: "",
 };
 ```
 
@@ -69,10 +63,6 @@ Run Server
   npm start
 ```
 
-
 ## Feedback
 
-If you have any feedback, please reach out to me at [sahiljit.dev](https://www.sahiljit.dev)
-
-
-
+If you have any feedback, please reach out to me at [sahiljit.vercel.app](https://sahiljit.vercel.app/)
